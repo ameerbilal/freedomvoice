@@ -1,0 +1,128 @@
+*{
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.logo{
+    height: 50px;
+}
+
+.logo:hover{
+    height: 60px;
+    transition: ease-in-out 0.5s;
+}
+
+ul{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    list-style: none;
+    text-decoration: none;
+}
+
+li{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    list-style: none;
+    
+}
+
+li:hover{
+    font-size: 20px;
+    text-decoration: solid 5px white;
+    transition: ease-in-out 0.2s;
+    
+}
+
+.film{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text{
+    color: aliceblue;
+    text-align: center;
+    direction: rtl;
+}
+
+.title-h1{
+    font-size: 60px;
+}
+
+.title-p{
+    text-align: right;
+}
+
+.title-p:hover{
+    font-size: 35px;
+    transition: ease-in-out 0.7s;
+}
+
+.img-about{
+    height: 200px;
+    border-radius: 100%;
+    filter: grayscale();
+}
+
+.h1-about{
+    color: aliceblue;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.p-about{
+    color: aliceblue;
+    width: 150px;
+    
+}
+
+.about{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.img-about:hover{
+    filter: grayscale(0);
+}
